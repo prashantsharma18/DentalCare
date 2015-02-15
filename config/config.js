@@ -34,7 +34,7 @@ module.exports.getGlobbedFiles = function (globPatterns, removeRoot) {
             output.push(globPatterns);
         } else {
             glob(globPatterns, {
-                sync: true
+                
             }, function (err, files) {
                 if (removeRoot) {
                     files = files.map(function (file) {
