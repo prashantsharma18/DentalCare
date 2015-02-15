@@ -1,7 +1,7 @@
 ﻿
 module.exports = {
     db: {
-        uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
+        uri: 'mongodb://prashantsharma18:bond999@ds043971.mongolab.com:43971/dental-care',
         options: {
             user: '',
             pass: ''
