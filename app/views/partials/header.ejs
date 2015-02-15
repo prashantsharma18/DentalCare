@@ -1,0 +1,29 @@
+﻿<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" collapse="isCollapsed">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+        <li><a href="#/blogs/search">Search</a></li>
+        <li class="dropdown" dropdown>
+          <a href class="dropdown-toggle" dropdown-toggle>Admin<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#/admin/create">Create Blog</a></li>
+            <li><a href="#/admin/maintenance">Maintain Blogs</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

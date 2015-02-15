@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+		<% include partials/head %>
+		<!--Application CSS Files-->
+		  <% for(var i = 0; i < cssFiles.length; i++) { %> 
+				<link rel="stylesheet" href="<%= cssFiles[i]%>" />
+		  <% } %>
+	</head> 
+	<body> 	
+	<header data-ng-include="'/modules/core/views/header.client.view.html'" class="navbar navbar-fixed-top navbar-inverse"></header>        
+	<div class="widewrapper main" ui-view> </div>    
+	<% include partials/footer %>
+
+	<!--Embedding The User Object-->
+	<script type="text/javascript">
+		var user = <%-JSON.stringify(user)%> ;
+	</script>
+
+	<!--Application JavaScript Files-->
+	<% for(var i = 0; i < jsFiles.length; i++) { %> 
+		<script type="text/javascript" src="<%= jsFiles[i] %>"></script>
+    <% } %>
+	</body> 
+</html>

@@ -1,0 +1,17 @@
+﻿<table class="table table-striped table-hover" ng-controller="BlogController" ng-init="findAll()">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Rank</th>
+            <th>Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="blog in blogs">
+            <td>{{blog.title}}</td>
+            <td> {{blog.ranking}}</td>
+            <td><a ui-sref="edit({slug: blog.slug})"> Edit Blog</a></td>
+            <td><input class="btn btn-default" type="button" ng-click="remove(blog)" value="Delete" /></td>
+        </tr>
+    </tbody>
+</table>

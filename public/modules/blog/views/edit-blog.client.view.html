@@ -1,0 +1,50 @@
+﻿<div class="container" ng-controller="BlogController" ng-init="findOne()">
+    <div class="page-header">
+        <h1>Edit Blog</h1>
+    </div>
+    <div class="col-md-12">
+        <form name="blogForm" class="form-horizontal" ng-submit="update()" novalidate>
+            <fieldset>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-default" >
+                </div>
+                <div data-ng-show="error" class="text-danger">
+                    <strong data-ng-bind="error"></strong>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="blog.title">Title</label>
+                    <input name="title" type="text" data-ng-model="blog.title" id="title" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="blog.slug">Slug</label>
+                    <input name="slug" type="text" data-ng-model="blog.slug" id="slug" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="blog.ranking">Rank</label>
+                    <input name="ranking" type="text" data-ng-model="blog.ranking" id="ranking" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="blog.postedBy">Post By</label>
+                    <input name="postedBy" type="text" data-ng-model="blog.postedBy" id="postedBy" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="blog.postedDate">Post Date</label>
+                    <input name="postedDate" type="datetime" data-ng-model="blog.postedDt" id="postedDate" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="blog.shortDesc">Short Desc</label>
+                    <input name="shortDesc" type="text" data-ng-model="blog.shortDesc" id="shortDesc" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="blog.tags">Tags</label>
+                    <div tag-list="blog" tag-item="blog.tags"></div>                    
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="blog.content">Content</label>
+                    <div text-angular="" ng-model="blog.content"></div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+</div>
