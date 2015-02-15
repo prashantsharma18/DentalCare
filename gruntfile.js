@@ -161,5 +161,5 @@ module.exports = function(grunt) {
 	// Build task(s).
 	grunt.registerTask('build', ['env:build','lint', 'loadConfig', 'ngAnnotate', 'uglify', 'cssmin']);
 
-	// Test task.
+	// heroku task.
 };
