@@ -352,10 +352,10 @@ app[web.1]: npm ERR! DentalCare@0.0.0 start: `grunt`
 2015-02-15T16:50:54.473918+00:00 app[web.1]: npm ERR! DentalCare@0.0.0 start: `grunt`
 2015-02-15T16:50:54.474765+00:00 app[web.1]: npm ERR! This is most likely a problem with the DentalCare package,
 2015-02-15T16:50:54.474869+00:00 app[web.1]: npm ERR! not with npm itself.
-2015-02-15T16:50:54.475217+00:00 app[web.1]: npm ERR! T
-ell the author that this fails on your system:
+2015-02-15T16:50:54.475217+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
 2015-02-15T16:50:54.474395+00:00 app[web.1]: npm ERR! Failed at the DentalCare@0.0.0 start script.
-2015-02-15T16:50:54.475341+00:00 app[web.1]: npm ERR!     grunt
+2015-02-15T16:50:54.475341+00:0
+0 app[web.1]: npm ERR!     grunt
 2015-02-15T16:50:54.475457+00:00 app[web.1]: npm ERR! You can get their info via:
 2015-02-15T16:50:54.475556+00:00 app[web.1]: npm ERR!     npm owner ls DentalCare
 2015-02-15T16:50:54.475803+00:00 app[web.1]: npm ERR! System Linux 3.13.0-40-generic
@@ -528,9 +528,9 @@ ell the author that this fails on your system:
 2015-02-15T17:29:10.427246+00:00 app[web.1]: 
 2015-02-15T17:29:10.601779+00:00 app[web.1]: npm ERR! node -v v0.10.35
 2015-02-15T17:29:10.599936+00:00 app[web.1]: npm ERR! 
-2015-02-
-15T17:29:10.601417+00:00 app[web.1]: npm ERR! System Linux 3.13.0-40-generic
-2015-02-15T17:29:10.600398+00:00 app[web.1]: npm ERR! This is most likely a problem with the DentalCare package,
+2015-02-15T17:29:10.601417+00:00 app[web.1]: npm ERR! System Linux 3.13.0-40-generic
+2015-02-15T17:29:10.600398+00:00 app[web.1]: npm ERR! This is most likely a problem with the DentalCare pa
+ckage,
 2015-02-15T17:29:10.600502+00:00 app[web.1]: npm ERR! not with npm itself.
 2015-02-15T17:29:10.600939+00:00 app[web.1]: npm ERR!     grunt build
 2015-02-15T17:29:10.427223+00:00 app[web.1]: 
@@ -700,10 +700,10 @@ ell the author that this fails on your system:
 2015-02-15T17:54:53.234768+00:00 app[web.1]: npm ERR! command "/app/vendor/node/bin/node" "/app/vendor/node/bin/npm" "start"
 2015-02-15T17:54:53.234026+00:00 app[web.1]: npm ERR!     grunt
 2015-02-15T17:54:53.232778+00:00 app[web.1]: npm ERR! Exit status 3
-2015-
-02-15T17:54:53.235099+00:00 app[web.1]: npm ERR! node -v v0.10.35
+2015-02-15T17:54:53.235099+00:00 app[web.1]: npm ERR! node -v v0.10.35
 2015-02-15T17:54:53.234408+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
-2015-02-15T17:54:53.239663+00:00 app[web.1]: npm ERR! 
+2015-02-
+15T17:54:53.239663+00:00 app[web.1]: npm ERR! 
 2015-02-15T17:54:54.011860+00:00 heroku[web.1]: Process exited with status 1
 2015-02-15T17:54:54.009548+00:00 heroku[web.1]: State changed from starting to crashed
 2015-02-15T17:54:54.010227+00:00 heroku[web.1]: State changed from crashed to starting
@@ -860,3 +860,90 @@ ell the author that this fails on your system:
 2015-02-15T18:00:05.956255+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=dental-care.herokuapp.com request_id=3ccb4df9-79a8-47ef-a655-bee4351f636b fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
 2015-02-15T18:00:12.605903+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dental-care.herokuapp.com request_id=9a09355e-197f-4413-a53b-cc1316a503e6 fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
 2015-02-15T18:00:13.334733+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=dental-care.herokuapp.com request_id=b6df23d6-1099-479e-820b-65368d6c54f8 fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:02:43.952366+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dental-care.herokuapp.com request_id=71f6e678-4eec-4d0b-8fed-2c9e1285c6e2 fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:02:44.655826+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=dental-care.herokuapp.com request_id=d44aac2a-6fde-43f2-8da5-212358f0ac4d fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:12:59.554724+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-15T18:13:02.301275+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-02-15T18:13:04.257265+00:00 app[web.1]: 
+2015-02-15T18:13:04.257283+00:00 app[web.1]: > DentalCare@0.0.0 start /app
+2015-02-15T18:13:04.257285+00:00 app[web.1]: > grunt
+2015-02-15T18:13:04.257286+00:00 app[web.1]: 
+2015-02-15T18:13:04.750530+00:00 app[web.1]: [31m>> [39mError: Cannot find module 'load-grunt-tasks'
+2015-02-15T18:13:04.769510+00:00 app[web.1]: npm ERR! Exit status 3
+2015-02-15T18:13:04.769689+00:00 app[web.1]: npm ERR! 
+2015-02-15T18:13:04.769303+00:00 app[web.1]: npm ERR! DentalCare@0.0.0 start: `grunt`
+2015-02-15T18:13:04.769799+00:00 app[web.1]: npm ERR! Failed at the DentalCare@0.0.0 start script.
+2015-02-15T18:13:04.770118+00:00 app[web.1]: npm ERR! This is most likely a problem with the DentalCare package,
+2015-02-15T18:13:04.770625+00:00 app[web.1]: npm ERR!     grunt
+2015-02-15T18
+:13:04.770838+00:00 app[web.1]: npm ERR!     npm owner ls DentalCare
+2015-02-15T18:13:04.771469+00:00 app[web.1]: npm ERR! node -v v0.10.35
+2015-02-15T18:13:04.770227+00:00 app[web.1]: npm ERR! not with npm itself.
+2015-02-15T18:13:04.747580+00:00 app[web.1]: Loading "gruntfile.js" tasks...[31mERROR[39m
+2015-02-15T18:13:04.771076+00:00 app[web.1]: npm ERR! System Linux 3.13.0-40-generic
+2015-02-15T18:13:04.771599+00:00 app[web.1]: npm ERR! npm -v 1.4.28
+2015-02-15T18:13:04.773957+00:00 app[web.1]: npm ERR! 
+2015-02-15T18:13:04.774086+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
+2015-02-15T18:13:04.751563+00:00 app[web.1]: [33mWarning: Task "default" not found. Use --force to continue.[39m
+2015-02-15T18:13:04.770326+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2015-02-15T18:13:04.771205+00:00 app[web.1]: npm ERR! command "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-02-15T18:13:04.751670+00:00 app[web.1]: 
+2015-02-15T18:13:04.751782+00:00 app[web.1]: [31mAborted due to warnings.[39m
+2015-02-15T18:13:04.763206+00:00 app[web.1]: 
+2015-02-15T18:13:04.770939+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2015-02-15T18:13:04.770734+00:00 app[web.1]: npm ERR! You can get their info via:
+2015-02-15T18:13:04.771342+00:00 app[web.1]: npm ERR! cwd /app
+2015-02-15T18:13:04.771721+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2015-02-15T18:13:04.774187+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-02-15T18:13:04.774381+00:00 app[web.1]: npm ERR! not ok code 0
+2015-02-15T18:13:05.432366+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-15T18:13:05.420674+00:00 heroku[web.1]: Process exited with status 1
+2015-02-15T18:17:59.122813+00:00 heroku[api]: Deploy deedf5e by prashantsharma18@gmail.com
+2015-02-15T18:17:59.122813+00:00 heroku[api]: Release v17 created by prashantsharma18@gmail.com
+2015-02-15T18:17:59.710066+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-15T18:18:02.101978+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-02-15T18:18:03.464201+00:00 app[web.1]: 
+2015-02-15T18:18:03.464258+00:00 app[web.1]: Fatal error: Unable to find local grunt.
+2015-02-15T18:18:03.464283+00:00 app[web.1]: 
+2015-02-15T18:18:03.464374+00:00 app[web.1]: If you're seeing this message, either a Gruntfile wasn't found or grunt
+2015-02-15T18:18:03.464426+00:00 app[web.1]: hasn't been installed locally to your project. For more information about
+2015-02-15T18:18:03.464473+00:00 app[web.1]: installing and configuring grunt, please see the Getting Started guide:
+2015-02-15T18:18:03.464509+00:00 app[web.1]: 
+2015-02-15T18:18:03.464542+00:00 app[web.1]: http://gruntjs.com/getting-started
+2015-02-15T18:18:03.469271+00:00 app[web.1]: 
+2015-02-15T18:18:03.332035+00:00 app[web.1]: > DentalCare@0.0.0 start /app
+2015-02-15T18:18:03.332039+00:00 app[web.1]: 
+2015-02-15T18:18:03.332019+00:00 app[web.1]: 
+2015-02-15T18:18:03.332037+00:00 app[web.1]: > grunt
+2015-02-15T18:18:03.476469+00:00 app[web.1]: npm ERR! This is most likely a problem with the DentalCare package,
+2015-02-15T18:18:03.475907+00:00 app[web.1]: npm ERR! Exit status 99
+2015-02-15T18:18:03.476158+00:00 app[web.1]: npm ERR! Failed at the DentalCare@0.0.0 start script.
+2015-02-15T18:18:03.476571+00:00 app[web.1]: npm ERR! not with npm itself.
+2015-02-15T18:18:03.463744+00:00 app[web.1]: grunt-cli: The grunt command line interface. (v0.1.13)
+2015-02-15T18:18:03.475703+00:00 app[web.1]: npm ERR! DentalCare@0.0.0 start: `grunt`
+2015-02-15T18:18:03.476057+00:00 app[web.1]: npm ERR! 
+2015-02-15T18:18:03.476674+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2015-02-15T18:18:03.477299+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2015-02-15T18:18:03.477581+00:00 app[web.1]: npm ERR! command "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-02-15T18:18:03.476988+00:00 app[web.1]: npm ERR!     grunt
+2015-02-15T18:18:03.477090+00:00 app[web.1]: npm ERR! You can get their info via:
+2015-02-15T18:18:03.477442+00:00 app[web.1]: npm ERR! System Linux 3.13.0-40-generic
+2015-02-15T18:18:03.477875+00:00 app[web.1]: npm ERR! node -v v0.10.35
+2015-02-15T18:18:03.477714+00:00 app[web.1]: npm ERR! cwd /app
+2015-02-15T18:18:03.477194+00:00 app[web.1]: npm ERR!     npm owner ls DentalCare
+2015-02-15T18:18:03.478151+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2015-02-15T18:18:03.478018+00:00 app[web.1]: npm ERR! npm -v 1.4.28
+2015-02-15T18:18:03.480630+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
+2015-02-15T18:18:03.480508+00:00 app[web.1]: npm ERR! 
+2015-02-15T18:18:03.480793+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-02-15T18:18:03.481115+00:00 app[web.1]: npm ERR! not ok code 0
+2015-02-15T18:18:04.140163+00:00 heroku[web.1]: Process exited with status 1
+2015-02-15T18:18:04.161388+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-15T18:18:11.226910+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dental-care.herokuapp.com request_id=0b00c732-0867-4262-b5d1-c687b6f46083 fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:18:12.067359+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=dental-care.herokuapp.com request_id=c32d11af-ce2e-464a-b074-bb871f9611be fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:18:20.139100+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dental-care.herokuapp.com request_id=86501e61-2a80-4707-973b-10b33fda1ece fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:18:23.556283+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dental-care.herokuapp.com request_id=cac0abd6-8696-47d4-a4d0-47d9e57bcfd8 fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:18:24.433504+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=dental-care.herokuapp.com request_id=3a4c43c4-2f8b-4e90-9ec8-e37948cb00fe fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:18:27.781747+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dental-care.herokuapp.com request_id=14dfefd6-57a2-4c1a-921b-003c206ce04a fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:18:28.518981+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dental-care.herokuapp.com request_id=d2f86780-0de5-46fc-a592-9932d014604f fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
+2015-02-15T18:18:28.984258+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=dental-care.herokuapp.com request_id=5b550e52-8941-4aa6-b777-fef3dbd4562b fwd="122.172.109.170" dyno= connect= service= status=503 bytes=
