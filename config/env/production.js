@@ -32,12 +32,19 @@ module.exports = {
                 'public/vendor/textAngular/dist/textAngular.min.js'
             ]
         },
-        css: 'public/dist/application.min.css',
-        js: 'public/dist/application.min.js'
+        css: [
+            'public/modules/**/css/*.css'
+        ],
+        js: [
+            'public/config.js',
+            'public/application.js',
+            'public/modules/*/*.js',
+            'public/modules/*/*[!tests]*/*.js'
+        ]
     },
     facebook: {
-        clientID: process.env.FACEBOOK_ID || 'APP_ID',
-        clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
+        clientID: process.env.FACEBOOK_ID || '338827686304451',
+        clientSecret: process.env.FACEBOOK_SECRET || 'dc2cdb3810ec59cd139e90bb0ea67b12',
         callbackURL: '/auth/facebook/callback'
     },
     twitter: {
