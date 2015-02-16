@@ -11,8 +11,7 @@
 		"node": ">=0.10.35"
 	},
   "scripts": {
-		"start": "grunt build",
-		"test": "grunt test",
+		"start": "grunt",
 		"postinstall": "bower install --config.interactive=false"
 	},
   "dependencies": {

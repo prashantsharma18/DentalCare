@@ -46,7 +46,7 @@ bower_components
 
 # MEAN.js app and assets
 # ======================
-**/public/dist/
+#**/public/dist/
 
 
 *.tfignore
