@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{e4c1fa6b-123c-4ff4-82ae-c7fc54f86e1b}</ProjectGuid>
+        <ProjectHome />
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile>server.js</StartupFile>
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="bower.json" />
+        <Content Include="package.json" />
+        <Content Include="README.md" />
+        <Compile Include="gruntfile.js" />
+        <Compile Include="server.js" />
+        <Compile Include="config\config.js" />
+        <Compile Include="config\express.js" />
+        <Compile Include="config\init.js" />
+        <Compile Include="config\logger.js" />
+        <Compile Include="config\passport.js" />
+        <Compile Include="public\application.js" />
+        <Compile Include="public\config.js" />
+        <Compile Include="app\controllers\blog.server.controller.js" />
+        <Compile Include="app\controllers\core.server.controller.js" />
+        <Compile Include="app\controllers\errors.server.controller.js" />
+        <Compile Include="app\controllers\users.server.controller.js" />
+        <Compile Include="app\models\blog.server.model.js" />
+        <Compile Include="app\models\tag.server.model.js" />
+        <Compile Include="app\models\user.server.model.js" />
+        <Compile Include="app\routes\blog.server.routes.js" />
+        <Compile Include="app\routes\core.server.routes.js" />
+        <Compile Include="app\routes\user.server.routes.js" />
+        <Content Include="app\views\blogHome.ejs" />
+        <Compile Include="app\controllers\users\users.authentication.server.controller.js" />
+        <Compile Include="app\controllers\users\users.authorization.server.controller.js" />
+        <Compile Include="app\controllers\users\users.password.server.controller.js" />
+        <Compile Include="app\controllers\users\users.profile.server.controller.js" />
+        <Content Include="app\views\partials\footer.ejs" />
+        <Content Include="app\views\partials\head.ejs" />
+        <Content Include="app\views\partials\header.ejs" />
+        <Compile Include="config\env\all.js" />
+        <Compile Include="config\env\development.js" />
+        <Compile Include="config\env\production.js" />
+        <Compile Include="config\strategies\facebook.js" />
+        <Compile Include="config\strategies\google.js" />
+        <Compile Include="config\strategies\linkedin.js" />
+        <Compile Include="config\strategies\local.js" />
+        <Compile Include="config\strategies\twitter.js" />
+        <Content Include="public\dist\application.min.css" />
+        <Compile Include="public\dist\application.js" />
+        <Compile Include="public\dist\application.min.js" />
+        <Compile Include="public\modules\blog\blog.client.module.js" />
+        <Compile Include="public\modules\core\core.client.module.js" />
+        <Compile Include="public\modules\users\users.client.module.js" />
+        <Compile Include="public\modules\blog\config\blog.client.config.js" />
+        <Compile Include="public\modules\blog\config\blog.client.routes.js" />
+        <Compile Include="public\modules\blog\controllers\blog.client.controller.js" />
+        <Compile Include="public\modules\blog\controllers\tags.client.directive.js" />
+        <Compile Include="public\modules\blog\services\blog.client.services.js" />
+        <Content Include="public\modules\blog\views\blogs.client.view.html" />
+        <Content Include="public\modules\blog\views\create-blog.client.view.html" />
+        <Content Include="public\modules\blog\views\edit-blog.client.view.html" />
+        <Content Include="public\modules\blog\views\list-blog.client.view.html" />
+        <Content Include="public\modules\blog\views\maint-blog.client.view.html" />
+        <Content Include="public\modules\blog\views\view-blog.client.view.html" />
+        <Compile Include="public\modules\core\controllers\header.client.controller.js" />
+        <Content Include="public\modules\core\css\blog-home.css" />
+        <Content Include="public\modules\core\img\brand.png" />
+        <Content Include="public\modules\core\img\logo.jpg" />
+        <Content Include="public\modules\core\img\tooth-icon.jpg" />
+        <Compile Include="public\modules\core\services\menus.client.service.js" />
+        <Content Include="public\modules\core\views\header.client.view.html" />
+        <Compile Include="public\modules\users\config\users.client.config.js" />
+        <Compile Include="public\modules\users\config\users.client.route.js" />
+        <Compile Include="public\modules\users\controllers\authentication.client.controller.js" />
+        <Compile Include="public\modules\users\controllers\password.client.controller.js" />
+        <Compile Include="public\modules\users\controllers\settings.client.controller.js" />
+        <Compile Include="public\modules\users\services\authentication.client.service.js" />
+        <Compile Include="public\modules\users\services\users.client.service.js" />
+        <Content Include="public\modules\users\img\buttons\facebook.png" />
+        <Content Include="public\modules\users\img\buttons\github.png" />
+        <Content Include="public\modules\users\img\buttons\google.png" />
+        <Content Include="public\modules\users\img\buttons\linkedin.png" />
+        <Content Include="public\modules\users\img\buttons\twitter.png" />
+        <Content Include="public\modules\users\views\authentication\signin.client.view.html" />
+        <Content Include="public\modules\users\views\authentication\signup.client.view.html" />
+        <Content Include="public\modules\users\views\password\forgot-password.client.view.html" />
+        <Content Include="public\modules\users\views\password\reset-password-invalid.client.view.html" />
+        <Content Include="public\modules\users\views\password\reset-password-success.client.view.html" />
+        <Content Include="public\modules\users\views\password\reset-password.client.view.html" />
+        <Content Include="public\modules\users\views\settings\change-password.client.view.html" />
+        <Content Include="public\modules\users\views\settings\edit-profile.client.view.html" />
+        <Content Include="public\modules\users\views\settings\social-accounts.client.view.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="app" />
+        <Folder Include="app\controllers" />
+        <Folder Include="app\controllers\users" />
+        <Folder Include="app\models" />
+        <Folder Include="app\routes" />
+        <Folder Include="app\views" />
+        <Folder Include="app\views\partials" />
+        <Folder Include="config" />
+        <Folder Include="config\env" />
+        <Folder Include="config\strategies" />
+        <Folder Include="public" />
+        <Folder Include="public\dist" />
+        <Folder Include="public\modules" />
+        <Folder Include="public\modules\blog" />
+        <Folder Include="public\modules\blog\config" />
+        <Folder Include="public\modules\blog\controllers" />
+        <Folder Include="public\modules\blog\services" />
+        <Folder Include="public\modules\blog\views" />
+        <Folder Include="public\modules\core" />
+        <Folder Include="public\modules\core\controllers" />
+        <Folder Include="public\modules\core\css" />
+        <Folder Include="public\modules\core\img" />
+        <Folder Include="public\modules\core\services" />
+        <Folder Include="public\modules\core\views" />
+        <Folder Include="public\modules\users" />
+        <Folder Include="public\modules\users\config" />
+        <Folder Include="public\modules\users\controllers" />
+        <Folder Include="public\modules\users\img" />
+        <Folder Include="public\modules\users\img\buttons" />
+        <Folder Include="public\modules\users\services" />
+        <Folder Include="public\modules\users\views" />
+        <Folder Include="public\modules\users\views\authentication" />
+        <Folder Include="public\modules\users\views\password" />
+        <Folder Include="public\modules\users\views\settings" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+    <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>
